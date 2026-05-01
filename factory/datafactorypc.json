@@ -1,0 +1,15 @@
+{
+	"name": "datafactorypc",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f29c769b-94f9-48f7-a718-ce1c5a94fd2f",
+		"tenantId": "e18d1118-6cf8-4f7e-9b94-a1dbda81bafd"
+	}
+}
