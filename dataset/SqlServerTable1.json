@@ -1,0 +1,52 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "shipment_id",
+				"type": "varchar"
+			},
+			{
+				"name": "shipment_date",
+				"type": "varchar"
+			},
+			{
+				"name": "customer_name",
+				"type": "varchar"
+			},
+			{
+				"name": "vendor_name",
+				"type": "varchar"
+			},
+			{
+				"name": "revenue",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "vendor_cost",
+				"type": "varchar"
+			},
+			{
+				"name": "status",
+				"type": "varchar"
+			},
+			{
+				"name": "updated_at",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "shipments"
+		}
+	}
+}
